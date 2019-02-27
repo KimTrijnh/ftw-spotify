@@ -1,0 +1,84 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+
+#logo {
+    width: 197px;
+    height: 59px;
+    margin: 10px auto;
+    border:1px solid green;
+}
+header {
+    width: 100%;
+    height: 110px;
+}
+
+section {
+    width: 100%;
+    height: 920px;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    border:1px solid green;
+
+}
+
+form {
+    width: 430px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input-box {
+    width: 426px;
+    height: 48px;
+    padding: 0 11px;
+    border: 1px solid #88898C;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #88898C;
+    margin-bottom: 18px;
+}
+
+#birthday {
+display: flex;
+justify-content: space-between;
+
+}
+.date {
+    width: 85px;
+    height: 48px;
+    padding: 0 11px;
+    border: 1px solid #88898C;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #88898C;
+}
+.month {
+    width: 191px;
+    height: 48px;
+    padding: 0 11px;
+    border: 1px solid #88898C;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #88898C;
+}
+.year {
+    width: 106px;
+    height: 48px;
+    padding: 0 11px;
+    border: 1px solid #88898C;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #88898C;
+}
